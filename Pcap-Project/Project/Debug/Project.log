@@ -1,0 +1,27 @@
+﻿Build started 4/26/2018 10:36:53 AM.
+     1>Project "C:\Users\student\Desktop\vezba10\Pcap-Project\Project\Project.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\Project.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../bpf/ /I../lbl/ /I../../Include/ /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D _MBCS /D WPCAP /D HAVE_REMOTE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt vezba10.c
+         vezba10.c
+     1>c:\users\student\desktop\vezba10\pcap-project\project\vezba10.c(185): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+     1>c:\users\student\desktop\vezba10\pcap-project\project\vezba10.c(48): warning C4101: 'average_packets' : unreferenced local variable
+     1>c:\users\student\desktop\vezba10\pcap-project\project\vezba10.c(49): warning C4101: 'average_bits' : unreferenced local variable
+     1>c:\users\student\desktop\vezba10\pcap-project\project\vezba10.c(265): warning C4700: uninitialized local variable 'all_bytes' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Project.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib wsock32.lib ws2_32.lib Iphlpapi.lib ../../Lib/wpcap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\student\Desktop\vezba10\Pcap-Project\Project\Debug\Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Project.lib" /MACHINE:X86 .\Debug\vezba10.obj
+     1>vezba10.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Project.vcxproj -> C:\Users\student\Desktop\vezba10\Pcap-Project\Project\.\Debug\Project.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Debug\Project.exe;#1" /manifest .\Debug\Project.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Project.unsuccessfulbuild".
+         Touching ".\Debug\Project.lastbuildstate".
+     1>Done Building Project "C:\Users\student\Desktop\vezba10\Pcap-Project\Project\Project.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.64
